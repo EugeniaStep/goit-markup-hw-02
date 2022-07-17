@@ -10,7 +10,9 @@
   /* темний фон #2F303A */
   --accent-bg-color: #2f303a;
   /* білий #FFFFFF */
-  --primary-white-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --accent-text-color: #ffffff;
+
 
   --main-font: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
@@ -18,7 +20,7 @@
 
 body {
   font-family: var(--main-font);
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -58,14 +60,14 @@ body {
 }
 
 .footer-logo {
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
 }
 
 .logo-accent {
   color: var(--accent-color);
 }
 
-.navigations-link {
+.navigation-link {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -86,17 +88,17 @@ body {
 
 .footer-contacts-list .contacts-link {
   font-style: normal;
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
   line-height: 1.71;
 }
 
-.footer-contacts-list .transparence {
+.footer-contacts-list .transparency {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.navigations-link:hover,
-.navigations-link:focus,
-.navigations-link.current,
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link.current,
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
@@ -121,7 +123,7 @@ body {
 }
 
 .hero-title {
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -132,7 +134,7 @@ body {
 }
 
 .hero-btn {
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
   border: none;
@@ -153,10 +155,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
 }
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -167,7 +169,7 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-} */
+}
 
 .feature-title {
   line-height: 1.14;
@@ -217,7 +219,7 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--accent-text-color);
 }
 
 .portfolio-link {
